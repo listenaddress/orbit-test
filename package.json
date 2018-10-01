@@ -1,0 +1,17 @@
+{
+  "name": "orbit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "orbit-test.js",
+  "dependencies": {
+    "orbit-db": "^0.19.9",
+    "ipfs": "^0.31.7",
+    "ipfs-api": "^24.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
