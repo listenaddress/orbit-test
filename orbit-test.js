@@ -26,7 +26,7 @@ const testDBPutsAndGets = () => {
     putMusicRelease(musicRelease1)
         .then(() => putMusicRelease(musicRelease2))
         .then(() => console.log("all releases", getMusicReleases()))
-        .then(() => console.log("all releases sorted by name", getMusicReleases({sortBy: "name", })))
+        .then(() => console.log("all releases sorted by name", getMusicReleases({sortBy: "name"})))
         .then(() => console.log("all releases by artist 1", getMusicReleases({artistId: "1"})))
         .then(() => console.log("second release", getMusicRelease("1")))
 }
